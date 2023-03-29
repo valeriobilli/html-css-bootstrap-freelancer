@@ -29,6 +29,13 @@ input, textarea {
 }
 
 footer {
-    height: 415px;
     background-color: #3a546d;
+}
+
+.colorGreen {
+    color: #1abc9c;
+}
+
+#copyright {
+    background-color: #2c3e50;
 }
