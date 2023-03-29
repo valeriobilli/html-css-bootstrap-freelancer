@@ -20,8 +20,12 @@ nav {
     background-color: #1abc9c;
 }
 
-.contactMe {
-    height: 830px;
+input, textarea {
+    border: none;
+}
+
+.mySubmit {
+    background-color: #1abc9c;
 }
 
 footer {
