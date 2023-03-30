@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 60px;
+}
+
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -24,11 +28,19 @@
     background-color: #1abc9c;
 }
 
-input, textarea {
+.form-control {
     border: none;
 }
 
+.form-control:focus {
+    box-shadow: none;
+}
+
 .mySubmit {
+    background-color: #1abc9c;
+}
+
+.mySubmit:hover {
     background-color: #1abc9c;
 }
 

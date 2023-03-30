@@ -21,13 +21,13 @@
                 <div class="collapse navbar-collapse">
                      <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                            <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT</a>
+                            <a class="nav-link text-white" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white">CONTACT</a>
+                            <a class="nav-link text-white" href="#contact">CONTACT</a>
                         </li>
                      </ul>
                 </div>
@@ -36,18 +36,18 @@
     </header>
 
     <main>
-        <section id="heroSection">
-            <div class="container text-white text-center py-5 mt-5">
-                <div class="row gy-3">
-                    <div class="col-6 col-md-4 col-lg-2 mx-auto">
+        <section id="heroSection" class="py-5 mt-5">
+            <div class="container text-white text-center">
+                <div class="row justify-content-center gy-3">
+                    <div class="col-4">
                         <img class="img-fluid" src="./img/avatar.svg" alt="avatar">
                     </div>
                     <div class="col-12">
                         <h1>START BOOTSTRAP</h1>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 offset-4">
+                <div class="row justify-content-center">
+                    <div class="col-4">
                         <div class="row g-0">
                             <div class="col-4">
                                 <hr class="border border-white border-2 rounded opacity-100">
@@ -69,15 +69,15 @@
             </div>
         </section>
 
-        <section id="portfolio">
-            <div class="container text-center py-5">
+        <section id="portfolio" class="py-5">
+            <div class="container text-center">
                 <div class="row gy-3">
                     <div class="col-12">
                         <h2>PORTFOLIO</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 offset-4">
+                <div class="row justify-content-center">
+                    <div class="col-4">
                         <div class="row g-0">
                             <div class="col-4">
                                 <hr class="border border-dark border-2 rounded opacity-100">
@@ -114,15 +114,15 @@
             </div>
         </section>
 
-        <section id="about">
-            <div class="container text-center text-white py-5">
+        <section id="about" class="py-5">
+            <div class="container text-center text-white">
                 <div class="row gy-3">
                     <div class="col-12">
                         <h2>ABOUT</h2>
                     </div>
                 </div>
-                <div class="row gy-3">
-                    <div class="col-4 offset-4">
+                <div class="row justify-content-center gy-3">
+                    <div class="col-4">
                         <div class="row g-0">
                             <div class="col-4">
                                 <hr class="border border-white border-2 rounded opacity-100">
@@ -136,11 +136,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row gy-2">
-                    <div class="col-8 offset-2 col-md-4 offset-md-2">
+                <div class="row justify-content-center gy-2">
+                    <div class="col-8 col-md-4">
                         <p class="text-start">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTMl CeS and-lavaSerint as well as optional LESS stylesheets for easy customization.</p>
                     </div>
-                    <div class="col-8 offset-2 col-md-4 offset-md-0">
+                    <div class="col-8 col-md-4">
                         <p class="text-start">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template, is the perfect startina point.</p>
                     </div>
                     <div class="col-12">
@@ -150,15 +150,15 @@
             </div>
         </section>
 
-        <section>
-            <div class="container text-center py-5">
+        <section id="contact" class="py-5">
+            <div class="container text-center">
                 <div class="row gy-3">
                     <div class="col-12">
                         <h2>CONTACT ME</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 offset-4">
+                <div class="row justify-content-center">
+                    <div class="col-4">
                         <div class="row g-0">
                             <div class="col-4">
                                 <hr class="border border-dark border-2 rounded opacity-100">
@@ -172,24 +172,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="row text-start">
-                    <div class="col-8 offset-2">
-                        <input type="text" placeholder="Name">
+                <div class="row justify-content-center text-start">
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="Name">
                         <hr>
                     </div>
-                    <div class="col-8 offset-2">
-                        <input type="email" placeholder="Email address">
+                    <div class="col-8">
+                        <input type="email" class="form-control" placeholder="Email address">
                         <hr>
                     </div>
-                    <div class="col-8 offset-2">
-                        <input type="number" placeholder="Phone number">
+                    <div class="col-8">
+                        <input type="number" class="form-control" placeholder="Phone number">
                         <hr>
                     </div>
-                    <div class="col-8 offset-2">
-                        <textarea name="" id="" cols="40" rows="5" placeholder="Message"></textarea>
+                    <div class="col-8">
+                        <textarea name="" id="" class="form-control" cols="40" rows="5" placeholder="Message"></textarea>
                         <hr>
                     </div>
-                    <div class="col-8 offset-2">
+                    <div class="col-8">
                         <button type="submit" class="btn text-white mySubmit">Send</button>
                     </div>
                 </div>
@@ -200,19 +200,19 @@
          
     <footer>
         <div class="container text-white text-center py-5">
-            <div class="row gy-4">
-                <div class="col-8 offset-2">
+            <div class="row justify-content-center gy-4">
+                <div class="col-8">
                     <div class="fs-4">LOCATION</div>
                     <div>2215 John Daniel Drive Clark. MO</div>
                 </div>
-                <div class="col-8 offset-2">
+                <div class="col-8">
                     <div class="fs-4">AROUND THE WEB</div>
                     <span class="border px-2 rounded-circle"><i class="fa-brands fa-facebook-f"></i></span>
                     <span class="border px-2 rounded-circle"><i class="fa-brands fa-google-plus-g"></i></span>
                     <span class="border px-2 rounded-circle"><i class="fa-brands fa-twitter"></i></span>
                     <span class="border px-2 rounded-circle"><i class="fa-brands fa-linkedin-in"></i></span>
                 </div>
-                <div class="col-8 offset-2">
+                <div class="col-8">
                     <div class="fs-4">ABOUT FREELANCER</div>
                     <div>Freelance is a free to use, open source Bootstrap theme created by <span class="colorGreen">Start Bootstrap</span></div>
                 </div>
